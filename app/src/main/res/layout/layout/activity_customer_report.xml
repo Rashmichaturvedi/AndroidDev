@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:padding="15dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#a29bfe"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:hint="Enter shop name"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                android:hint="Enter Address"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/ed3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                android:hint="Conversation details"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feedback  "
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="Positive" />
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="-32dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Negative" />
+
+            <EditText
+                android:id="@+id/ed4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                android:hint="Person Name"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/ed5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                android:hint="Contact Details"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/Customerreport"
+                android:layout_width="208dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:ems="10"
+                android:background="#6ab04c"
+                android:layout_marginTop="20dp"
+                android:text="submit"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:gravity="center"/>
+            </LinearLayout>
+            </ScrollView>
+            </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

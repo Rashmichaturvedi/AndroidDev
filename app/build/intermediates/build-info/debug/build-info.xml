@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="25"
+    build-mode="HOT_WARM"
+    density="hdpi"
+    format="10"
+    plugin-version="3.4.2"
+    timestamp="1565007508332"
+    token="5269290947426010887"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="934" />
+    <task
+        name="instant-run-dex"
+        duration="68" />
+    <task
+        name="instant-run-transform"
+        duration="242" />
+    <task
+        name="verifier"
+        duration="21" />
+
+    <artifact
+        location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1565005240379"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1565006805830"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1565007227565"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1565007508332"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\dell-pc\AndroidStudioProjects\company2\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

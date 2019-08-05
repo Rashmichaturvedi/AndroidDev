@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:padding="40dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#a29bfe"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DailyReport"
+                    android:textSize="35dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btnreport"
+                    android:layout_width="208dp"
+                    android:layout_gravity="center"
+
+                    android:text="View Report"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        </android.support.v7.widget.CardView>
+</RelativeLayout>
